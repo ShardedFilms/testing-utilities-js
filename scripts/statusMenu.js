@@ -10,7 +10,7 @@ let maxDur = 60;
 function applyLocal(perma){ // Singleplayer
     let p = Vars.player.unit();
     if(p != null){
-        p.apply(status, perma ? Number.MAX_VALUE : duration * 60);
+        p.apply(status, perma ? Number.MAX_VALUE : duration * 3600);
     }
 }
 
